@@ -17,7 +17,7 @@
         }
     }
     else{
-        echo "<p>Database already exista</p>";
+        echo "<p>Database already exists</p>";
     }
     
     $query = $connection->query("CREATE TABLE posts ("
