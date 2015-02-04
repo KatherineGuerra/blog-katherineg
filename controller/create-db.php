@@ -1,5 +1,6 @@
 <?php
-    require_once(__DIR__ . "/../model/database.php");
+/*objects lets us store information*/
+    require_once(__DIR__ . "/../model/config.php");
     
     $connection = new mysqli($host, $username, $password);
     
@@ -19,7 +20,7 @@
     else{
         echo "<p>Database already exists</p>";
     }
-    
+    /*this query creates a table*/
     $query = $connection->query("CREATE TABLE posts ("
             . "id int(11) NOT NULL AUTO_INCREMENT,"
             . "title varchar (255) NOT NULL,"
