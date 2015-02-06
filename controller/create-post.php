@@ -2,8 +2,6 @@
     /* /../is to get out of a folder */
     require_once(__DIR__ . "/../model/config.php");
 
-    $connection = new mysqli($host, $username, $password, $database);
-
     /* use the = sign to assign to a value */
     /* INPUT_POST means were sending in information */
     $title = filter_input(INPUT_POST, "title", FILTER_SANITIZE_STRING);
@@ -18,4 +16,4 @@
         echo"<p>$connection->error</p>";
     }
     
-    $connection->close();
+  
