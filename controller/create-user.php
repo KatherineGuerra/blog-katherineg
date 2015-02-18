@@ -7,7 +7,7 @@
    
    
    $salt = "$5$" . "rounds=5000$" . uniqid(mt_rand(), true) . "$";
-   
+   /*crypt creates a hashed password*/
    $hashedPassword = crypt($password, $salt);
    
    
