@@ -1,6 +1,7 @@
 <?php
 /*objects lets us store information*/
     require_once(__DIR__ . "/../model/config.php");
+    
  
     /*this query creates a table*/
     $query = $_SESSION["connection"]->query("CREATE TABLE posts ("

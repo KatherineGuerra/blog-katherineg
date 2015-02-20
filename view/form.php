@@ -1,5 +1,12 @@
 <?php
     require_once(__DIR__ . "/../model/config.php");
+    require_once(__DIR__ . "/../controller/login-verify.php");
+    
+    if(!authenticateUser()){
+        /*we are redirecting the user before we kill off the program*/
+        header("Location: " . $path . "index.php");
+        die();
+    }
 ?>
 
 <h1>Create Blog Post</h1>

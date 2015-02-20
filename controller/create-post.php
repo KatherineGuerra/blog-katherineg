@@ -1,6 +1,7 @@
 <?php
     /* /../is to get out of a folder */
     require_once(__DIR__ . "/../model/config.php");
+    
 
     /* use the = sign to assign to a value */
     /* INPUT_POST means were sending in information */
