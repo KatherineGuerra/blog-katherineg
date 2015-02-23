@@ -11,7 +11,7 @@
     $query = $_SESSION["connection"]->query("INSERT INTO POSTS SET title = '$title', post = '$post' ");
     
     if($query){
-        echo"<p>Successfully inserted post: $title</p>";
+        require_once(__DIR__ . "/../index.php");
     }
     else{
         echo"<p>" . $_SESSION["connection"]->error . "</p>";
