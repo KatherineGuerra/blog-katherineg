@@ -1,0 +1,4 @@
+/* this line of  code centers the image*/
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
