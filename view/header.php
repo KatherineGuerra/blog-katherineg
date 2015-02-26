@@ -16,7 +16,7 @@ and open the template in the editor.
         
     </head>
     <body> 
-                    <h1 class="uppercase" id="mainText">About Me</h1>
+        <h1 class="uppercase" id="mainText">About Me</h1>
         <h2 id="mainText">My name Katherine Guerra.</h2>
         <div class="container">
             <p id="mainText">I'm a freshman attending <a href='http://phs.pasadenausd.org/'>Pasadena High School</a>. I enjoy watching fireworks.
@@ -28,7 +28,7 @@ and open the template in the editor.
                 <div class="col-xs-3">
                     <p></p>
                     <nav class="list-group">
-                        <a class="list-group-item active dropdown-toggle" href="index.html">About Me</a>
+                        <a class="list-group-item active dropdown-toggle" href="header.php">About Me</a>
                         <a class="list-group-item" href="projects.html">Projects</a>
                         <a class="list-group-item" href="technologies.html">Technologies</a>
                         <a class="list-group-item" href="jquery.html">JQuery</a>

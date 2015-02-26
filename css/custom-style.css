@@ -1,0 +1,109 @@
+div {
+   
+    border-width: 5px; 
+    border-color: springgreen;
+   
+}
+
+.container {
+    border-color: deeppink; 
+}
+
+.row {
+    border-color: gold;
+}
+
+.list-group-item{
+    border: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: bolder;
+}
+
+body{
+    font-family: cursive;
+    background-image: url('http://www.123gifs.eu/free-gifs/fireworks/feuerwerk-0057.gif');
+    font-size: smaller;  
+}
+
+#mainText{
+    color: white;
+    font-weight: bolder;
+    
+}
+.colortext{
+    color:    #ff9900;
+   font-size: 20px;
+   font-weight: bolder;
+}
+#colortext{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#colort{
+    color: black;
+    font-weight: bolder;
+}
+nav a{
+    color: darkmagenta;
+
+}
+#colo{
+    color: #00ffff;
+    font-weight: bolder;
+}
+
+#color{
+    color: #ff0000;
+   
+    font-weight: bolder;
+}
+
+.text-lowercase{
+    text-transform: uppercase;
+    font-size: 39px;
+    color: #ff9900 ;
+    font-weight: bolder;
+}
+/*this change the width and height of the image*/
+img{
+    width: auto;
+    height: 250px; 
+}
+
+h1{ 
+    border-bottom: 3px double cyan;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 2px;
+    margin-right: 10px;   
+}
+
+
+#img{
+    width: 500px;
+    height: auto;
+}
+/* i chose springgreen as my border because i thought it would match my background*/ 
+/* i put the h2 as class="text-lowercase" because i couldnt find another way to get the h2 a diferent size from h1*/
+/* I put the #main text white so you can see better since my background is white*/
+/*270px*/
+
+/* this line of  code centers the image*/
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+#jqueryimg{
+    width: 500px;
+    height: auto;
+}

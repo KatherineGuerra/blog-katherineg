@@ -13,7 +13,7 @@
        if($row["password"] === crypt($password, $row["salt"])){
          /*it tells the user if they been logged in authenticated*/
            $_SESSION["authenticated"] = true;
-           require_once(__DIR__ . "/../index.php");
+           header("Location: " . $path . "index.php");
        }
        else{
            echo "<p>Invalid username and password</p>";

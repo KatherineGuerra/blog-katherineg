@@ -2,9 +2,9 @@
     require_once(__DIR__ . "/../model/config.php");
 ?>
 
-<h1 class="carousel-inner">Login</h1>
+<h1>Login</h1>
 
-<form method='post' action='<?php echo $path . "controller/login-user.php"?>' class="carousel-inner">
+<form method='post' action='<?php echo $path . "controller/login-user.php"?>' >
         <div>
         <label for='username'>Username: </label>
         <input type='text' name='username'/>

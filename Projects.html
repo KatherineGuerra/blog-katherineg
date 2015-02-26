@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Projects</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+        <link type="text/css" rel="stylesheet" href="css/custom-style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+            
+            <div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+    Dropdown
+    <span class="caret"></span>
+  </button>
+  <!--this dropdown will link to pages such as about, technology, and the jquery pages-->
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">About</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" id="current-link-active" href="Projects.html">Projects</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="Technologies.html">Technology</a></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="jquery.html">JQuery</a></li>
+   
+  </ul>
+</div>
+            </nav>
+        </header>
+        <article>
+            <h1 class="uppercase" id="mainText">Projects</h1>
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <!--this will create slides-->
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <!--this is a screenshot from my portfolio 1 page-->
+                        <img src="2014_09_10_10_50_29_Katherine_Guerra_Portfolio_website.png" alt="..." id='img'>
+                        <div class="carousel-caption">
+                            <!--portfolio 1 was the first project that I have ever made -->
+                            <h2 class="text-lowercase" id="colort">PORTFOLIO 1</h2>
+                             <p id="colortext">My first website was using HTML and CSS. </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <!--a screenshot of my portfolio 2 page-->
+                        <img src="2014_09_25_20_59_40_ABOUT_ME.png" alt="..." id='img'>
+                        <div class="carousel-caption">
+                            <!--portfolio 2 page was a difficult page with bootstrap-->
+                            <h3 class="text-lowercase" >PORTFOLIO 2</h3>
+                            <p class="colortext" >My second website was using HTML, CSS and BOOTSTRAP.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <!--screenshot of my first game snake-->
+                        <img src="2014_11_17_11_58_40_Katherine_Guerra_Snake.png" alt="..." id='img'>
+                        <div class="carousel-caption">
+                            <!--I was proud of creating the game snake because it was my first time creating a game-->
+                            <h4 class="text-lowercase" >SNAKE</h4>
+                              <p class="colortext">My first game was snake which was using HTML, CSS and JS.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <!--screenshot of the mario page-->
+                        <img src="2014_11_17_11_53_10_melonJS_Template.png" alt="..." id='img'>
+                        <div class="carousel-caption">
+                            <!--mario was a difficult game to do-->
+                             <h5 class="text-lowercase" id="colort" >MARIO</h5>
+                             <p id="colortext">My second game is Mario which used MelonJS.</p>
+                        </div>
+                    </div>
+                      <div class="item">
+                        <!--screenshot of my jquery page-->
+                        <img src="2015_01_20_22_51_25_TODO_supply_a_title.png" alt=""/>
+                        <div class="carousel-caption">
+                            <!--this jquery page was in the middle it wasnt too hard or too easy-->
+                           <h6 class="text-lowercase" id="colort">Jquery</h6>
+                             <p id="colortext"> This was making sure if I could make a website using Jquery</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <!--screenshot of my jquery page-->
+                        
+                        <img src="2015_02_24_19_49_24_localhost_katherineg_blog_login.php.png" alt=""/>
+                        <div class="carousel-caption">
+                            <!--this jquery page was in the middle it wasnt too hard or too easy-->
+                           <h6 class="text-lowercase" id="colort">Blog</h6>
+                             <p class="colortext">Its where i can post things up on my website.</p>
+                        </div>
+                    </div>
+                   
+                    
+                    ...
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">slide</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+           
+           
+        </article>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+       <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
+

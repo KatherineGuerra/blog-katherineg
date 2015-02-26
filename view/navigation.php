@@ -12,5 +12,6 @@
     <ul>
         <li><a href='<?php echo $path . "post.php"?>'>Blog Post Form</a></li>
         <button><a href = "controller/logout-user.php">LogOut</a></button>
+        
     </ul>
 </nav>
